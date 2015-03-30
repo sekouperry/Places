@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  FetchImageModel.m
 //  Places
 //
 //  Created by Ishan on 3/30/15.
 //  Copyright (c) 2015 Ishan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "FetchImageModel.h"
 
-@interface ViewController : UIViewController
-
+@implementation FetchImageModel
 
 @end
-

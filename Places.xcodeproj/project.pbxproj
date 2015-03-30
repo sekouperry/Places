@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0AA059336541A90CDC19C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A7E6ACE4BFD062338E694A /* libPods.a */; };
+		864BE0831AC9D60C00F9BB24 /* PlacesDataParserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 864BE0821AC9D60C00F9BB24 /* PlacesDataParserController.m */; };
 		86E41CDC1AC91370007C5A61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41CDB1AC91370007C5A61 /* main.m */; };
-		86E41CDF1AC91370007C5A61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41CDE1AC91370007C5A61 /* AppDelegate.m */; };
 		86E41CE21AC91370007C5A61 /* Places.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86E41CE01AC91370007C5A61 /* Places.xcdatamodeld */; };
-		86E41CE51AC91370007C5A61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41CE41AC91370007C5A61 /* ViewController.m */; };
 		86E41CE81AC91370007C5A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86E41CE61AC91370007C5A61 /* Main.storyboard */; };
 		86E41CEA1AC91370007C5A61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E41CE91AC91370007C5A61 /* Images.xcassets */; };
 		86E41CED1AC91370007C5A61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86E41CEB1AC91370007C5A61 /* LaunchScreen.xib */; };
 		86E41CF91AC91370007C5A61 /* PlacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41CF81AC91370007C5A61 /* PlacesTests.m */; };
+		86E41D0A1AC913EA007C5A61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41D041AC913EA007C5A61 /* AppDelegate.m */; };
+		86E41D0F1AC91477007C5A61 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41D0E1AC91477007C5A61 /* SplashViewController.m */; };
+		86E41D121AC91486007C5A61 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41D111AC91486007C5A61 /* HomeViewController.m */; };
+		86E41D151AC917F6007C5A61 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41D141AC917F6007C5A61 /* Constants.m */; };
+		86E41D171AC923AE007C5A61 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E41D161AC923AE007C5A61 /* CoreLocation.framework */; };
+		86E41D191AC923B7007C5A61 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E41D181AC923B7007C5A61 /* QuartzCore.framework */; };
+		86E41D1B1AC923C1007C5A61 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E41D1A1AC923C1007C5A61 /* CoreData.framework */; };
+		86E41D201AC94EEC007C5A61 /* PlaceType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86E41D1F1AC94EEC007C5A61 /* PlaceType.plist */; };
+		86E41D271AC95741007C5A61 /* FetchPlaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41D261AC95741007C5A61 /* FetchPlaceModel.m */; };
+		86E41D2A1AC95753007C5A61 /* FetchImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41D291AC95753007C5A61 /* FetchImageModel.m */; };
+		86E41D2D1AC95761007C5A61 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41D2C1AC95761007C5A61 /* LocationModel.m */; };
+		86E41D301AC960E5007C5A61 /* PlacesServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41D2F1AC960E5007C5A61 /* PlacesServiceManager.m */; };
+		86E41D351AC9613B007C5A61 /* GetPlacesOfTypeServiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E41D341AC9613B007C5A61 /* GetPlacesOfTypeServiceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +41,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		550B1BF9C58BEE15C694DB49 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		79A7E6ACE4BFD062338E694A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		864BE0811AC9D60C00F9BB24 /* PlacesDataParserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesDataParserController.h; sourceTree = "<group>"; };
+		864BE0821AC9D60C00F9BB24 /* PlacesDataParserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesDataParserController.m; sourceTree = "<group>"; };
 		86E41CD61AC91370007C5A61 /* Places.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Places.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E41CDA1AC91370007C5A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86E41CDB1AC91370007C5A61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		86E41CDD1AC91370007C5A61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		86E41CDE1AC91370007C5A61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		86E41CE11AC91370007C5A61 /* Places.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Places.xcdatamodel; sourceTree = "<group>"; };
-		86E41CE31AC91370007C5A61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		86E41CE41AC91370007C5A61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86E41CE71AC91370007C5A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86E41CE91AC91370007C5A61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		86E41CEC1AC91370007C5A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		86E41CF21AC91370007C5A61 /* PlacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E41CF71AC91370007C5A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86E41CF81AC91370007C5A61 /* PlacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlacesTests.m; sourceTree = "<group>"; };
+		86E41D031AC913EA007C5A61 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86E41D041AC913EA007C5A61 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86E41D0D1AC91477007C5A61 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		86E41D0E1AC91477007C5A61 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		86E41D101AC91486007C5A61 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		86E41D111AC91486007C5A61 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		86E41D131AC917DF007C5A61 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		86E41D141AC917F6007C5A61 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		86E41D161AC923AE007C5A61 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		86E41D181AC923B7007C5A61 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		86E41D1A1AC923C1007C5A61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		86E41D1F1AC94EEC007C5A61 /* PlaceType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlaceType.plist; sourceTree = "<group>"; };
+		86E41D251AC95741007C5A61 /* FetchPlaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchPlaceModel.h; sourceTree = "<group>"; };
+		86E41D261AC95741007C5A61 /* FetchPlaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchPlaceModel.m; sourceTree = "<group>"; };
+		86E41D281AC95753007C5A61 /* FetchImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchImageModel.h; sourceTree = "<group>"; };
+		86E41D291AC95753007C5A61 /* FetchImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchImageModel.m; sourceTree = "<group>"; };
+		86E41D2B1AC95761007C5A61 /* LocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationModel.h; sourceTree = "<group>"; };
+		86E41D2C1AC95761007C5A61 /* LocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationModel.m; sourceTree = "<group>"; };
+		86E41D2E1AC960E5007C5A61 /* PlacesServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesServiceManager.h; sourceTree = "<group>"; };
+		86E41D2F1AC960E5007C5A61 /* PlacesServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesServiceManager.m; sourceTree = "<group>"; };
+		86E41D331AC9613B007C5A61 /* GetPlacesOfTypeServiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPlacesOfTypeServiceController.h; sourceTree = "<group>"; };
+		86E41D341AC9613B007C5A61 /* GetPlacesOfTypeServiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPlacesOfTypeServiceController.m; sourceTree = "<group>"; };
+		974A8C401DC1EC79AE46E376 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E41D1B1AC923C1007C5A61 /* CoreData.framework in Frameworks */,
+				86E41D191AC923B7007C5A61 /* QuartzCore.framework in Frameworks */,
+				86E41D171AC923AE007C5A61 /* CoreLocation.framework in Frameworks */,
+				7C0AA059336541A90CDC19C4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +102,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F0C3A3A029B34BF3C03395A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D1A1AC923C1007C5A61 /* CoreData.framework */,
+				86E41D181AC923B7007C5A61 /* QuartzCore.framework */,
+				86E41D161AC923AE007C5A61 /* CoreLocation.framework */,
+				79A7E6ACE4BFD062338E694A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		716E8D08015FF08D3BA3EACF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				974A8C401DC1EC79AE46E376 /* Pods.debug.xcconfig */,
+				550B1BF9C58BEE15C694DB49 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		864BE07F1AC9D3AB00F9BB24 /* ParsingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				864BE0801AC9D3AB00F9BB24 /* PlacesDataPraserController */,
+			);
+			path = ParsingControllers;
+			sourceTree = "<group>";
+		};
+		864BE0801AC9D3AB00F9BB24 /* PlacesDataPraserController */ = {
+			isa = PBXGroup;
+			children = (
+				864BE0811AC9D60C00F9BB24 /* PlacesDataParserController.h */,
+				864BE0821AC9D60C00F9BB24 /* PlacesDataParserController.m */,
+			);
+			path = PlacesDataPraserController;
+			sourceTree = "<group>";
+		};
 		86E41CCD1AC91370007C5A61 = {
 			isa = PBXGroup;
 			children = (
 				86E41CD81AC91370007C5A61 /* Places */,
 				86E41CF51AC91370007C5A61 /* PlacesTests */,
 				86E41CD71AC91370007C5A61 /* Products */,
+				716E8D08015FF08D3BA3EACF /* Pods */,
+				6F0C3A3A029B34BF3C03395A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,10 +162,8 @@
 		86E41CD81AC91370007C5A61 /* Places */ = {
 			isa = PBXGroup;
 			children = (
-				86E41CDD1AC91370007C5A61 /* AppDelegate.h */,
-				86E41CDE1AC91370007C5A61 /* AppDelegate.m */,
-				86E41CE31AC91370007C5A61 /* ViewController.h */,
-				86E41CE41AC91370007C5A61 /* ViewController.m */,
+				86E41D021AC913EA007C5A61 /* AppDelegate */,
+				86E41D051AC913EA007C5A61 /* Sources */,
 				86E41CE61AC91370007C5A61 /* Main.storyboard */,
 				86E41CE91AC91370007C5A61 /* Images.xcassets */,
 				86E41CEB1AC91370007C5A61 /* LaunchScreen.xib */,
@@ -101,6 +178,7 @@
 			children = (
 				86E41CDA1AC91370007C5A61 /* Info.plist */,
 				86E41CDB1AC91370007C5A61 /* main.m */,
+				86E41D1F1AC94EEC007C5A61 /* PlaceType.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,6 +200,151 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		86E41D021AC913EA007C5A61 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D031AC913EA007C5A61 /* AppDelegate.h */,
+				86E41D041AC913EA007C5A61 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		86E41D051AC913EA007C5A61 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D211AC95721007C5A61 /* Models */,
+				86E41D1C1AC94E78007C5A61 /* Managers */,
+				86E41D061AC913EA007C5A61 /* Constants */,
+				86E41D071AC913EA007C5A61 /* Controllers */,
+				86E41D091AC913EA007C5A61 /* Helpers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		86E41D061AC913EA007C5A61 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D131AC917DF007C5A61 /* Constants.h */,
+				86E41D141AC917F6007C5A61 /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		86E41D071AC913EA007C5A61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				864BE07F1AC9D3AB00F9BB24 /* ParsingControllers */,
+				86E41D311AC96111007C5A61 /* ServiceControllers */,
+				86E41D081AC913EA007C5A61 /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		86E41D081AC913EA007C5A61 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D0B1AC91465007C5A61 /* HomeViewController */,
+				86E41D0C1AC91465007C5A61 /* SplashViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		86E41D091AC913EA007C5A61 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		86E41D0B1AC91465007C5A61 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D101AC91486007C5A61 /* HomeViewController.h */,
+				86E41D111AC91486007C5A61 /* HomeViewController.m */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		86E41D0C1AC91465007C5A61 /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D0D1AC91477007C5A61 /* SplashViewController.h */,
+				86E41D0E1AC91477007C5A61 /* SplashViewController.m */,
+			);
+			path = SplashViewController;
+			sourceTree = "<group>";
+		};
+		86E41D1C1AC94E78007C5A61 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D1D1AC94E78007C5A61 /* ServiceManagers */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		86E41D1D1AC94E78007C5A61 /* ServiceManagers */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D2E1AC960E5007C5A61 /* PlacesServiceManager.h */,
+				86E41D2F1AC960E5007C5A61 /* PlacesServiceManager.m */,
+			);
+			path = ServiceManagers;
+			sourceTree = "<group>";
+		};
+		86E41D211AC95721007C5A61 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D221AC95721007C5A61 /* FetchImageModel */,
+				86E41D231AC95721007C5A61 /* FetchPlaceModel */,
+				86E41D241AC95721007C5A61 /* LocationModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86E41D221AC95721007C5A61 /* FetchImageModel */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D281AC95753007C5A61 /* FetchImageModel.h */,
+				86E41D291AC95753007C5A61 /* FetchImageModel.m */,
+			);
+			path = FetchImageModel;
+			sourceTree = "<group>";
+		};
+		86E41D231AC95721007C5A61 /* FetchPlaceModel */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D251AC95741007C5A61 /* FetchPlaceModel.h */,
+				86E41D261AC95741007C5A61 /* FetchPlaceModel.m */,
+			);
+			path = FetchPlaceModel;
+			sourceTree = "<group>";
+		};
+		86E41D241AC95721007C5A61 /* LocationModel */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D2B1AC95761007C5A61 /* LocationModel.h */,
+				86E41D2C1AC95761007C5A61 /* LocationModel.m */,
+			);
+			path = LocationModel;
+			sourceTree = "<group>";
+		};
+		86E41D311AC96111007C5A61 /* ServiceControllers */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D321AC96111007C5A61 /* GetPlacesOfTypeServiceController */,
+			);
+			path = ServiceControllers;
+			sourceTree = "<group>";
+		};
+		86E41D321AC96111007C5A61 /* GetPlacesOfTypeServiceController */ = {
+			isa = PBXGroup;
+			children = (
+				86E41D331AC9613B007C5A61 /* GetPlacesOfTypeServiceController.h */,
+				86E41D341AC9613B007C5A61 /* GetPlacesOfTypeServiceController.m */,
+			);
+			path = GetPlacesOfTypeServiceController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86E41CFC1AC91370007C5A61 /* Build configuration list for PBXNativeTarget "Places" */;
 			buildPhases = (
+				CB6AEB29D5B336190D7CDA1E /* Check Pods Manifest.lock */,
 				86E41CD21AC91370007C5A61 /* Sources */,
 				86E41CD31AC91370007C5A61 /* Frameworks */,
 				86E41CD41AC91370007C5A61 /* Resources */,
+				349EA68385E06F931ED50D16 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E41D201AC94EEC007C5A61 /* PlaceType.plist in Resources */,
 				86E41CE81AC91370007C5A61 /* Main.storyboard in Resources */,
 				86E41CED1AC91370007C5A61 /* LaunchScreen.xib in Resources */,
 				86E41CEA1AC91370007C5A61 /* Images.xcassets in Resources */,
@@ -217,15 +443,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		349EA68385E06F931ED50D16 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB6AEB29D5B336190D7CDA1E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86E41CD21AC91370007C5A61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E41CDF1AC91370007C5A61 /* AppDelegate.m in Sources */,
 				86E41CDC1AC91370007C5A61 /* main.m in Sources */,
-				86E41CE51AC91370007C5A61 /* ViewController.m in Sources */,
 				86E41CE21AC91370007C5A61 /* Places.xcdatamodeld in Sources */,
+				86E41D2A1AC95753007C5A61 /* FetchImageModel.m in Sources */,
+				86E41D0A1AC913EA007C5A61 /* AppDelegate.m in Sources */,
+				86E41D121AC91486007C5A61 /* HomeViewController.m in Sources */,
+				86E41D301AC960E5007C5A61 /* PlacesServiceManager.m in Sources */,
+				864BE0831AC9D60C00F9BB24 /* PlacesDataParserController.m in Sources */,
+				86E41D2D1AC95761007C5A61 /* LocationModel.m in Sources */,
+				86E41D0F1AC91477007C5A61 /* SplashViewController.m in Sources */,
+				86E41D271AC95741007C5A61 /* FetchPlaceModel.m in Sources */,
+				86E41D351AC9613B007C5A61 /* GetPlacesOfTypeServiceController.m in Sources */,
+				86E41D151AC917F6007C5A61 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +612,7 @@
 		};
 		86E41CFD1AC91370007C5A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974A8C401DC1EC79AE46E376 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Places/Info.plist;
@@ -355,6 +623,7 @@
 		};
 		86E41CFE1AC91370007C5A61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 550B1BF9C58BEE15C694DB49 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Places/Info.plist;
@@ -416,6 +685,7 @@
 				86E41CFE1AC91370007C5A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86E41CFF1AC91370007C5A61 /* Build configuration list for PBXNativeTarget "PlacesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +694,7 @@
 				86E41D011AC91370007C5A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
